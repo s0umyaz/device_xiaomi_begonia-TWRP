@@ -19,8 +19,8 @@ $(call inherit-product-if-exists, vendor/twrp/config/gsm.mk)
 # Inherit from begonia device
 $(call inherit-product, device/xiaomi/begonia/device.mk)
 
-PRODUCT_DEVICE := begoniain
-PRODUCT_NAME := omni_begoniain
+PRODUCT_DEVICE := begonia
+PRODUCT_NAME := twrp_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := xiaomi
